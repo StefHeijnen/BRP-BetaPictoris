@@ -1,6 +1,7 @@
 # BRP-BetaPictoris
 
-There are three different subdirectories. Each subdirectory has a different model.
+There are three different subdirectories. Each subdirectory has a different model, however they all have the same layout. It includes a chi squared fit, a MCMC fit and a figures module, which produces the final plot.
+- The initial parameters given for the chi squared fit are given by trial and error.
 
 Blackbody Model:
 - The values of the parameters in the MCMC fit are the resulted parameter values of the Chi Squared Fit
