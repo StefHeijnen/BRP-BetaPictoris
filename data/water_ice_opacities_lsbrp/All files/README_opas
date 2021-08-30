@@ -1,0 +1,16 @@
+------------------------------------------------------------------
+------------------------------------------------------------------
+The opacity files have 5 columns with the following headers:
+
+Wavelength (mic)
+Total opacity
+Albedo
+Absorption coefficient
+Asymmetry parameter g
+
+h2oice.p3p5.amin0p005.amax1mm.g.ab0p0005.wb08c146
+
+p3p5 => n^(-3.5) in the MRN power law distribution of dust grain sizes
+amin0p005 => minimum grain size of power law distribution, in microns
+amax1mm => maximum grain size of power law distribution
+ab0p0005 => ice abundance, with respect to the gas (we'll have to see how to treat that)

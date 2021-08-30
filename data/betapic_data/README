@@ -1,0 +1,29 @@
+Files in the zip file:
+
+1) chen+07_slshlh.dat
+Contains the Spitzer IRS spectrum of BetaPic from ~5-35 microns. 
+Columns are all labelled (wavelength in microns, flux (F_nu) and uncertainty in Janskys, (Jy)).
+You'll need to convert to nu*F_nu in order to reproduce the spectral energy distribution (SED), 
+i.e. the plot from the project page.
+
+2) betapic_fluxes.dat
+Contains assorted photometry from the optical and infrared with BetaPic. 
+The input that you want is formatted as wavelength (mircons), flux (F_nu, Jy), uncertainty (Jy).
+There are a lot of comment lines with notes on the magnitudes and fluxes that can 
+be ignored or removed.
+
+3) betapic_lws_cnt3_.txt
+Contains the ISO LWS spectrum of BetaPic, from ~43 to 160 microns. 
+NOTE: This spectrum is in a different format:
+wavelength (microns), nu*F_nu (erg/cm^2/s), and uncertainty in nu*F_nu (same units).
+So no conversion is necessary here.
+
+4) Three files:
+mips_sed_vb.dat
+mips_sed_vb_above.dat
+mips_sed_vb_below.dat
+
+The Spitzer MIPS SED mode spectra. These have the format:
+wavelength (microns), flux (Jy)
+
+I need to go back to my reduction routine and print the error columns, but this will get you started.
